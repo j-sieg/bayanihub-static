@@ -1,0 +1,253 @@
+/* link all the other needed CSS files */
+@import "bootstrap.css";
+@import "bootstrap-extensions.css";
+
+@font-face {
+  font-family: main0;
+  src: url(../typefaces/Inter/Inter-Bold-slnt=0.ttf);
+}
+
+@font-face {
+  font-family: main1Regular;
+  src: url(../typefaces/Inter/Inter-Regular-slnt=0.ttf);
+}
+
+@font-face {
+  font-family: main1SemiBold;
+  src: url(../typefaces/Inter/Inter-SemiBold-slnt=0.ttf);
+}
+
+@font-face {
+  font-family: main1Bold;
+  src: url(../typefaces/Inter/Inter-Bold-slnt=0.ttf);
+}
+
+@font-face {
+  font-family: main1Black;
+  src: url(../typefaces/Inter/Inter-Black-slnt=0.ttf);
+}
+
+
+.theme1 {
+  --esync-base: #59C9A5;
+  --esync-main: #5B6C5D;
+
+  /* --esync-main-pos1: #62A474;
+  --esync-main-pos2: #528961;
+  --esync-main-pos3: #416D4D;
+  --esync-main-pos4: #235D3A;
+  --esync-main-pos5: #203626;
+  --esync-main-pos6: #101B13;
+
+  --esync-main-neg1: #87C999;
+  --esync-main-neg2: #9BD2AA;
+  --esync-main-neg3: #AFDBBB;
+  --esync-main-neg4: #C8EAD1;
+  --esync-main-neg5: #D7EDDD;
+  --esync-main-neg6: #EBF6EE; */
+
+  --esync-accent1: #EF6F6C;
+  --esync-accent1-dark: #ca5957;
+  --esync-accent1-light: #ff9e9d;
+
+  --esync-accent2: #465775;
+  --esync-accent2-dark: #324361;
+  --esync-accent2-light: #647797;
+
+  --esync-contrast: #EDF6F9;
+  --esync-hard-contrast: #fff;
+  --esync-hard-contrast-negative: #000;
+}
+
+.theme2 {
+  --esync-base: #235D3A;
+  --esync-main: #73C088;
+
+  --esync-main-pos1: #62A474;
+  --esync-main-pos2: #528961;
+  --esync-main-pos3: #416D4D;
+  --esync-main-pos4: #235D3A;
+  --esync-main-pos5: #203626;
+  --esync-main-pos6: #101B13;
+
+  --esync-main-neg1: #87C999;
+  --esync-main-neg2: #9BD2AA;
+  --esync-main-neg3: #AFDBBB;
+  --esync-main-neg4: #C8EAD1;
+  --esync-main-neg5: #D7EDDD;
+  --esync-main-neg6: #EBF6EE;
+
+  --esync-accent1: #A673C0;
+  --esync-accent2: #C073AB;
+  --esync-accent3: #C0737C;
+
+  --esync-contrast: #fff;
+}
+
+:root {
+  font-size: 16px;
+  font-family: main1Regular;
+}
+
+/* elements */
+  a{
+    color: var(--esync-accent1);
+  }
+
+/* typography */
+  .esync-title{
+    font-size: 4.6rem;
+    font-family: main0;
+  }
+  .esync-regular{
+    font-family: main1Regular;
+  }
+  .esync-semibold{
+    font-family: main1SemiBold;
+  }
+  .esync-bold{
+    font-family: main1Bold;
+  }
+  .esync-black{
+    font-family: main1Black;
+  }
+
+/* text colors */
+  .esync-color-base{
+    color: var(--esync-base);
+  }
+  .esync-color-main{
+    color: var(--esync-main);
+  }
+  .esync-color-accent1{
+    color: var(--esync-accent1);
+  }
+  .esync-color-accent2{
+    color: var(--esync-accent2);
+  }
+  .esync-color-contrast{
+    color: var(--esync-contrast);
+  }
+
+/* backgrounds */
+  .esync-bg-base{
+    background-color: var(--esync-base);
+  }
+  .esync-bg-main{
+    background-color: var(--esync-main);
+  }
+  .esync-bg-accent1{
+    background-color: var(--esync-accent1);
+  }
+  .esync-bg-accent2{
+    background-color: var(--esync-accent2);
+  }
+  .esync-bg-contrast{
+    background-color: var(--esync-contrast);
+  }
+
+/* button fills */
+  .esync-btn-primary {
+    color: var(--esync-base);
+    background-color: var(--esync-accent1);
+    border-color: var(--esync-accent1-dark);
+  }
+
+  .esync-btn-primary:hover {
+    color: var(--esync-base);
+    filter: brightness(90%);
+  }
+
+  .esync-btn-primary.disabled, .esync-btn-primary:disabled {
+    filter: brightness(70%);
+  }
+
+  .esync-btn-secondary {
+    color: var(--esync-contrast);
+    background-color: var(--esync-accent2);
+    border-color: var(--esync-accent2-dark);
+  }
+
+  .esync-btn-primary:hover {
+    filter: brightness(90%);
+  }
+
+  .esync-btn-primary.disabled, .esync-btn-primary:disabled {
+    filter: brightness(70%);
+  }
+
+/* button outlines */
+  .esync-btn-outline-primary {
+    color: var(--esync-accent1);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--esync-accent1);
+  }
+
+  .esync-btn-outline-primary:hover {
+    color: var(--esync-base);
+    background-color: var(--esync-accent1);
+    border-color: var(--esync-accent1-dark);
+  }
+  .esync-btn-outline-primary.disabled, .esync-btn-outline-primary:disabled {
+    filter: brightness(70%);
+  }
+/* tables */
+  .esync-table-head{
+    border-top: 4px solid var(--esync-contrast);
+    border-bottom: 4px solid var(--esync-contrast);
+  }
+  .esync-table{
+    border-bottom: 4px solid var(--esync-contrast);
+  }
+
+/* others */
+  .flat-hill{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0px;
+  }
+  input:checked + .slider {
+    left: 100%;
+    margin-left: -1.4rem;
+  }input:not(:checked) + .slider {
+    left: 0.2rem;
+  }
+  .slider{
+    position: absolute;
+    content: "";
+    height: 1.2rem;
+    width: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);  
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .switch{
+    position: relative;
+    display: inline-block;
+    width: 2.8rem;
+    height: 1.6rem;
+  }
+  .rounded-switch{
+    border-radius: 1.6rem;
+  }
+
+/* borders */
+  .esync-border-contrast-1{
+    border: 1px solid var(--esync-contrast)
+  }
+  .esync-border-contrast-2{
+    border: 2px solid var(--esync-contrast)
+  }
+  .esync-border-contrast-3{
+    border: 3px solid var(--esync-contrast)
+  }
+  .esync-border-contrast-4{
+    border: 4px solid var(--esync-contrast)
+  }
+  .esync-border-contrast-5{
+    border: 5px solid var(--esync-contrast)
+  }

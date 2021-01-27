@@ -1,0 +1,27 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+  <title>Documaent</title>
+</head>
+
+<body class="theme1">
+  {% include navbar.html %}
+  <section class="container">
+    <div class="row">
+      {% for card-content in site.data.content-card-contents %}
+        <div class="col-md-3 p-2">
+          {% include content-card.html title=card-content.title body=card-content.body %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% include footer.html %}
+</body>
+
+</html>
