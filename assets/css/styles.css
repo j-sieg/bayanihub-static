@@ -1,6 +1,7 @@
 /* link all the other needed CSS files */
 @import "bootstrap.css";
 @import "bootstrap-extensions.css";
+@import "flickity.css";
 
 @font-face {
   font-family: main1Regular;
