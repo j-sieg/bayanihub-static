@@ -4,6 +4,10 @@
 @import "flickity.css";
 
 @font-face {
+  font-family: main0;
+  src: url("../typefaces/Gotham Rounded Book/Gotham Rounded Book.otf");
+}
+@font-face {
   font-family: main1Regular;
   src: url("../typefaces/Typograph PRO/TYPOGRAPH PRO Light.ttf");
 }
@@ -107,6 +111,9 @@
   }
 
 /* typography */
+  .ekonek-special{
+    font-family: main0;
+  }
   .ekonek-regular{
     font-family: main1Regular;
   }
