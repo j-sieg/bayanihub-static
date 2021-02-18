@@ -1,0 +1,43 @@
+<div class="carousel-cell w-100 d-flex flex-column justify-content-center">
+  <!-- BG image -->
+  <img class="bg-img-slideshow w-md-100 h-md-auto w-auto h-100" src={{include.bg_img}} />
+  <!-- text -->
+  <section class="container p-5 ekonek-color-contrast">
+    <row class="row">
+      <column class="col-md-12">
+        <heading>
+          <h1 class="ekonek-special ekonek-font-7 text-break">{{include.heading}}</h1>
+        </heading>
+        <article>
+          <p class="ekonek-font-2 text-break">{{include.article}}</p>
+        </article>
+      </column>
+      <column class="col-md-0"></column>
+    </row>
+  </section>
+
+  <style>
+    #slideshow{
+      background-color: var(--ekonek-primary);
+    }
+    #slideshow .bg-img-slideshow{
+      z-index: -1;
+      position: absolute !important;
+      left: 50%;
+      transform: translateX(-50%);
+      overflow: hidden;
+      filter: blur(4px) brightness(80%);
+    }
+    .carousel-cell{
+      background-color: var(--ekonek-primary);
+      height: 720px;
+    }
+    .flickity-slider, .flickity-viewport, .flickity {
+      display: flex;
+      align-items: center;
+    }
+    .blur{
+      filter: blur(50%);
+    }
+  </style>
+</div>

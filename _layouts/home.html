@@ -8,17 +8,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
   <script src="{{site.baseurl}}/assets/main.js"></script>
-  <title>Documaent</title>
+  <script src="{{site.baseurl}}/assets/flickity.pkgd.js"></script>
+  <script src="{{site.baseurl}}/assets/flickity.fade.js"></script>
+  <title>ekonek | Home</title>
 </head>
 
-<body class="theme1">
+<body class="theme1 ekonek-regular">
   {% include navbar.html %}
+  <section id="slideshow" class="carousel" data-flickity='{ "wrapAround": false, "autoPlay": true, "adaptiveHeight": false, "pageDots": false, "fade": true  }'>
+    {% for slideshow-content in site.data.slideshow-contents %}
+      {% include slideshow.html bg_img=slideshow-content.bg_img heading=slideshow-content.heading article=slideshow-content.article %}
+    {% endfor %}
+  </section>
   <section class="container">
     <div class="row">
       {% for card-content in site.data.content-card-contents %}
-        <div class="col-md-3 p-2">
-          {% include content-card.html title=card-content.title body=card-content.body %}
-        </div>
+        {% include content-card.html title=card-content.title body=card-content.body %}
       {% endfor %}
     </div>
   </section>
