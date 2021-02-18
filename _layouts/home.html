@@ -15,7 +15,7 @@
 
 <body class="theme1 ekonek-regular">
   {% include navbar.html %}
-  <section id="slideshow" class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "adaptiveHeight": false, "pageDots": false, "fade": true  }'>
+  <section id="slideshow" class="carousel" data-flickity='{ "wrapAround": false, "autoPlay": true, "adaptiveHeight": false, "pageDots": false, "fade": true  }'>
     {% for slideshow-content in site.data.slideshow-contents %}
       {% include slideshow.html bg_img=slideshow-content.bg_img heading=slideshow-content.heading article=slideshow-content.article %}
     {% endfor %}
