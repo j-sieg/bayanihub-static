@@ -2,5 +2,17 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: page
 ---
+<section id="slideshow" class="carousel" data-flickity='{ "wrapAround": false, "autoPlay": true, "adaptiveHeight": false, "pageDots": false, "fade": true  }'>
+  {% for slideshow-content in site.data.slideshow-contents %}
+    {% include slideshow.html bg_img=slideshow-content.bg_img heading=slideshow-content.heading article=slideshow-content.article %}
+  {% endfor %}
+</section>
+<section class="container">
+  <div class="row">
+    {% for card-content in site.data.content-card-contents %}
+      {% include content-card.html title=card-content.title body=card-content.body %}
+    {% endfor %}
+  </div>
+</section>
