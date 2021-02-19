@@ -1,26 +1,31 @@
 [
   {
     "img": "https://static.wixstatic.com/media/583f70_661c677757514f2d9ebc3e1f75164054~mv2.jpg/v1/crop/x_711,y_1192,w_1596,h_1560/fill/w_320,h_313,al_c,q_80,usm_0.66_1.00_0.01/Gino%20eu%20(1).webp",
+    "img_hover": "https://i.pinimg.com/originals/23/83/b8/2383b8c0a126d1d6e45c69e1f1d8c835.png",
     "name": "Gino Araullo",
     "description": "Branding, Graphics, Web Development"
   },
   {
     "img": "https://static.wixstatic.com/media/583f70_9017c5c1656749e7809dabb2417fd513~mv2.jpg/v1/crop/x_2,y_0,w_1272,h_1271/fill/w_318,h_313,al_c,q_80,usm_0.66_1.00_0.01/sam.webp",
+    "img_hover": "https://i.pinimg.com/originals/23/83/b8/2383b8c0a126d1d6e45c69e1f1d8c835.png",
     "name": "Sam Jose",
     "description": "Photography, videography, electronics"
   },
   {
     "img": "https://static.wixstatic.com/media/583f70_3744be2a83dc4ac6913eda8edd645b3b~mv2.jpg/v1/crop/x_27,y_206,w_1222,h_1222/fill/w_318,h_313,al_c,q_80,usm_0.66_1.00_0.01/arlando.webp",
+    "img_hover": "https://i.pinimg.com/originals/23/83/b8/2383b8c0a126d1d6e45c69e1f1d8c835.png",
     "name": "Arland Guzman",
     "description": "Marketing, printing, accounting"
   },
   {
     "img": "https://radaris.com/i/de6f2329f9dc43bfa6567a1cf580f683",
+    "img_hover": "https://i.pinimg.com/originals/23/83/b8/2383b8c0a126d1d6e45c69e1f1d8c835.png",
     "name": "Josh Odicta",
     "description": "Hucker"
   },
   {
     "img": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:357/h:201/q:75/https://bleedingcool.com/wp-content/uploads/2020/10/301766-dexter-dexterjpg-8825861280wjpg-f4799d.jpg",
+    "img_hover": "https://i.pinimg.com/originals/23/83/b8/2383b8c0a126d1d6e45c69e1f1d8c835.png",
     "name": "James Siega",
     "description": "Spider"
   },

@@ -32,8 +32,18 @@ permalink: /team/
   <article class="ekonek-font-2 p-3">
     <row class="row">
       {% for person in site.data.team-founders %}
-        {% include founder.html img=person.img name=person.name description=person.description %}
+        {% include founder.html img=person.img img_hover=person.img_hover name=person.name description=person.description %}
       {% endfor %}
     </row>
   </article>
 </section>
+
+<style>
+  .founder-img-hover{
+    opacity: 0;
+    transition: 0.4s;
+  }
+  .founder-img-container:hover > .founder-img-hover{
+    opacity: 1;
+  }
+</style>
