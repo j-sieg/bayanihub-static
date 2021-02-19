@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Home
+permalink: /
 ---
 <section id="slideshow" class="carousel" data-flickity='{ "wrapAround": false, "autoPlay": true, "adaptiveHeight": false, "pageDots": false, "fade": true  }'>
   {% for slideshow-content in site.data.slideshow-contents %}
