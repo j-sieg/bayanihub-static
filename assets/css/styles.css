@@ -173,6 +173,12 @@
   .ekonek-bg-base{
     background-color: var(--ekonek-base);
   }
+  .ekonek-bg-base-pos{
+    background-color: var(--ekonek-base-pos);
+  }
+  .ekonek-bg-base-neg{
+    background-color: var(--ekonek-base-neg);
+  }
   .ekonek-bg-primary{
     background-color: var(--ekonek-primary);
   }
@@ -510,6 +516,15 @@
 }
 .svg-container-icon-5 {
   width: 4.8rem;
+}
+.svg-container-icon-6 {
+  width: 5.6rem;
+}
+.svg-container-icon-7 {
+  width: 6.4rem;
+}
+.svg-container-icon-8 {
+  width: 7.2rem;
 }
 .svg-container { 
 	display: inline-block;
