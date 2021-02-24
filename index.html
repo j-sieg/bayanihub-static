@@ -8,10 +8,12 @@ permalink: /
     {% include slideshow.html bg_img=slideshow-content.bg_img heading=slideshow-content.heading article=slideshow-content.article %}
   {% endfor %}
 </section>
-<section class="container">
-  <div class="row">
-    {% for card-content in site.data.content-card-contents %}
-      {% include content-card.html link_to=card-content.link_to img=card-content.img title=card-content.title body=card-content.body %}
-    {% endfor %}
-  </div>
+<section class="sulong-bg-contrast">
+  <section class="container">
+    <div class="row p-4">
+      {% for card-content in site.data.content-card-contents %}
+        {% include content-card.html link_to=card-content.link_to img=card-content.img title=card-content.title body=card-content.body %}
+      {% endfor %}
+    </div>
+  </section>
 </section>
