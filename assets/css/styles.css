@@ -71,6 +71,7 @@
 
   --sulong-contrast: #ebebeb;
   --sulong-contrast-pos: rgb(240, 240, 240);
+  --sulong-contrast-neg: #cfcfcf;
   --sulong-hard-contrast: #fff;
   --sulong-hard-contrast-negative: #000;
 }
@@ -543,18 +544,17 @@
 /* FLICKITY */
 
 .flickity-button {
-  background: var(--sulong-accent1-neg);
+  background: transparent;
   transition: 0.2s;
 }
 .flickity-button:hover {
-  background: var(--sulong-accent1);
-}
-
-.flickity-prev-next-button {
-  
+  background: transparent;
 }
 /* icon color */
+.flickity-button-icon {
+  fill: var(--sulong-contrast-neg);
+}
 .flickity-button:hover .flickity-button-icon {
-  fill: var(--sulong-base);
+  fill: var(--sulong-contrast);
   transition: 0.2s;
 }
