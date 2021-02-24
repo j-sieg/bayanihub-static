@@ -40,12 +40,12 @@ permalink: /team/
 
 <section class="container p-3">
   <heading class="text-center p-3">
-    <h1 class="sulong-bold">Consultants</h1>
+    <h1 class="sulong-bold">Professional Advisors</h1>
   </heading>
   <article class="sulong-font-2 p-3">
     <row class="row d-flex justify-content-center">
       {% for person in site.data.team-consultants %}
-        {% include team-card.html col_sm=6 col_md=4 color="secondary" img=person.img img_hover=person.img_hover name=person.name description=person.description %}
+        {% include team-card-landscape.html color="secondary" img=person.img img_hover=person.img_hover name=person.name description=person.description %}
       {% endfor %}
     </row>
   </article>
@@ -58,7 +58,7 @@ permalink: /team/
   <article class="sulong-font-2 p-3">
     <row class="row d-flex justify-content-center">
       {% for person in site.data.team-leads %}
-        {% include team-card.html col_sm=6 col_md=4 color="primary" img=person.img img_hover=person.img_hover name=person.name description=person.description %}
+        {% include team-card.html col_sm=6 col_md=4 color="accent1" img=person.img img_hover=person.img_hover name=person.name description=person.description %}
       {% endfor %}
     </row>
   </article>
@@ -71,7 +71,7 @@ permalink: /team/
   <article class="sulong-font-2 p-3">
     <row class="row d-flex justify-content-center">
       {% for person in site.data.team-members %}
-        {% include team-card.html col_sm=6 col_md=3 color="accent1" img=person.img img_hover=person.img_hover name=person.name description=person.description %}
+        {% include team-card.html col_sm=6 col_md=3 color="primary" img=person.img img_hover=person.img_hover name=person.name description=person.description %}
       {% endfor %}
     </row>
   </article>
