@@ -23,6 +23,11 @@ window.onload = () => {
       slideshow.player.play();
     });
   }
+
+  // //add link to header banner
+  // document.querySelector("header-banner").children.forEach(e => {
+  //   e.onclick=() => {window.open('{{site.baseurl}}/', 'mywindow');}
+  // })
 }//window.onload end
 
 //function for general carousel resizing
