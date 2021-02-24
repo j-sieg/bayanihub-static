@@ -14,6 +14,12 @@ window.onload = () => {
     };
     console.log(document.title.slice(0, document.title.indexOf("|")-1));
   });
+
+  //persistent flickity autoplay
+  if(document.querySelector("#slideshow") !== null){
+    let slideshow = new Flickity("#slideshow");
+    slideshow.options.pauseAutoPlayOnHover = false;
+  }
 }//window.onload end
 
 //function for general carousel resizing
