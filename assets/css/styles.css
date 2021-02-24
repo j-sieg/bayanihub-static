@@ -35,6 +35,23 @@
   src: url("../typefaces/Typograph PRO/TYPOGRAPH PRO Extra Bold.ttf");
 }
 
+@font-face {
+  font-family: main2Regular;
+  src: url("../typefaces/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: main2SemiBold;
+  src: url("../typefaces/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: main2Bold;
+  src: url("../typefaces/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: main2Black;
+  src: url("../typefaces/Roboto/Roboto-Black.ttf");
+}
+
 
 
 
