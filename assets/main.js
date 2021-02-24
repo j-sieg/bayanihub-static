@@ -7,11 +7,12 @@ window.onload = () => {
 
   //Header: add active class to active page
   [].slice.call(document.querySelector("#navigation-links ul").children).forEach(function(el){
-    if(el.firstElementChild.textContent == document.title.slice(document.title.indexOf("|") + 2)){
+    if(el.firstElementChild.textContent == document.title.slice(0, document.title.indexOf("|")-1)){
       el.firstElementChild.classList.add("active");
     }else{
       el.firstElementChild.classList.remove("active");
     };
+    console.log(document.title.slice(0, document.title.indexOf("|")-1));
   });
 }//window.onload end
 
