@@ -19,6 +19,9 @@ window.onload = () => {
   if(document.querySelector("#slideshow") !== null){
     let slideshow = new Flickity("#slideshow");
     slideshow.options.pauseAutoPlayOnHover = false;
+    slideshow.on('pointerUp', function () {
+      slideshow.player.play();
+    });
   }
 }//window.onload end
 
