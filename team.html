@@ -27,12 +27,51 @@ permalink: /team/
 
 <section class="container p-3">
   <heading class="text-center p-3">
-    <h1 class="sulong-bold">Our Founders</h1>
+    <h1 class="sulong-bold">Core Team</h1>
   </heading>
   <article class="sulong-font-2 p-3">
-    <row class="row">
-      {% for person in site.data.team-founders %}
-        {% include founder.html img=person.img img_hover=person.img_hover name=person.name description=person.description %}
+    <row class="row d-flex justify-content-center">
+      {% for person in site.data.team-core %}
+        {% include team-card.html col_sm=6 col_md=4 img=person.img img_hover=person.img_hover name=person.name description=person.description %}
+      {% endfor %}
+    </row>
+  </article>
+</section>
+
+<section class="container p-3">
+  <heading class="text-center p-3">
+    <h1 class="sulong-bold">Consultants</h1>
+  </heading>
+  <article class="sulong-font-2 p-3">
+    <row class="row d-flex justify-content-center">
+      {% for person in site.data.team-consultants %}
+        {% include team-card.html col_sm=6 col_md=4 img=person.img img_hover=person.img_hover name=person.name description=person.description %}
+      {% endfor %}
+    </row>
+  </article>
+</section>
+
+<section class="container p-3">
+  <heading class="text-center p-3">
+    <h1 class="sulong-bold">Team Leads</h1>
+  </heading>
+  <article class="sulong-font-2 p-3">
+    <row class="row d-flex justify-content-center">
+      {% for person in site.data.team-leads %}
+        {% include team-card.html col_sm=6 col_md=4 img=person.img img_hover=person.img_hover name=person.name description=person.description %}
+      {% endfor %}
+    </row>
+  </article>
+</section>
+
+<section class="container p-3">
+  <heading class="text-center p-3">
+    <h1 class="sulong-bold">Members</h1>
+  </heading>
+  <article class="sulong-font-2 p-3">
+    <row class="row d-flex justify-content-center">
+      {% for person in site.data.team-members %}
+        {% include team-card.html col_sm=6 col_md=3 img=person.img img_hover=person.img_hover name=person.name description=person.description %}
       {% endfor %}
     </row>
   </article>
