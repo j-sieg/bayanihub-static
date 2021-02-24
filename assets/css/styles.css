@@ -4,8 +4,16 @@
 @import "flickity.css";
 
 @font-face {
-  font-family: main0;
-  src: url("../typefaces/Gotham Rounded Book/Gotham Rounded Book.otf");
+  font-family: main0Regular;
+  src: url("../typefaces/Neue Montreal/NeueMontreal-Regular.otf");
+}
+@font-face {
+  font-family: main0SemiBold;
+  src: url("../typefaces/Neue Montreal/NeueMontreal-Medium.otf");
+}
+@font-face {
+  font-family: main0Bold;
+  src: url("../typefaces/Neue Montreal/NeueMontreal-Bold.otf");
 }
 @font-face {
   font-family: main1Regular;
@@ -112,7 +120,7 @@
 
 /* typography */
   .sulong-special{
-    font-family: main0;
+    font-family: main0Regular;
   }
   .sulong-regular{
     font-family: main1Regular;
