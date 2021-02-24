@@ -1,9 +1,9 @@
 <div class="col-md-{{include.col_md}} col-sm-{{include.col_sm}} p-2">
   <div class="p-3 text-center h-100">
-    <picture class="position-relative d-block" style="">
-      <div class="profile-img-container rounded-circle overflow-hidden position-relative w-100 sulong-border-{{include.color}}-5" style="padding-bottom: 100%;">
+    <picture class="position-relative d-block p-4" style="">
+      <div class="profile-img-container rounded-circle overflow-hidden position-relative w-100 sulong-border-{{include.color}}-8" style="padding-bottom: 100%;">
         <img class="h-100 w-100 position-absolute left-0" src="{{ include.img }}" style="z-index:-1"/>
-        <img class="profile-img-hover h-100 w-100 position-absolute left-0" src="{{ include.img_hover }}"style="z-index:0" />
+        <!-- <img class="profile-img-hover h-100 w-100 position-absolute left-0" src="{{ include.img_hover }}"style="z-index:0" /> -->
       </div>
       <!-- <div class="svg-container-icon-5 transition-1 position-absolute bottom-0 right-0 {{ include.icon_bg_color }} p-3 rounded-circle">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -16,7 +16,7 @@
       </div> -->
     </picture>
     <name>
-      <h2 class="sulong-bold">{{ include.name }}</h2>
+      <h2 class="sulong-bold-2">{{ include.name }}</h2>
     </name>
     <description>
       <p>{{ include.description }}</p>

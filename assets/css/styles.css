@@ -140,17 +140,29 @@
   .sulong-special{
     font-family: main0Regular;
   }
-  .sulong-regular{
+  .sulong-regular-1{
     font-family: main1Regular;
   }
-  .sulong-semibold{
+  .sulong-semibold-1{
     font-family: main1SemiBold;
   }
-  .sulong-bold{
+  .sulong-bold-1{
     font-family: main1Bold;
   }
-  .sulong-black{
+  .sulong-black-1{
     font-family: main1Black;
+  }
+  .sulong-regular-2{
+    font-family: main2Regular;
+  }
+  .sulong-semibold-2{
+    font-family: main2SemiBold;
+  }
+  .sulong-bold-2{
+    font-family: main2Bold;
+  }
+  .sulong-black-2{
+    font-family: main2Black;
   }
 
   .sulong-typeface-alternative{
@@ -390,6 +402,15 @@
   .sulong-border-base-5{
     border: 5px solid var(--sulong-base)
   }
+  .sulong-border-base-6{
+    border: 6px solid var(--sulong-base)
+  }
+  .sulong-border-base-7{
+    border: 7px solid var(--sulong-base)
+  }
+  .sulong-border-base-8{
+    border: 8px solid var(--sulong-base)
+  }
 
   .sulong-border-primary-1{
     border: 1px solid var(--sulong-primary)
@@ -405,6 +426,15 @@
   }
   .sulong-border-primary-5{
     border: 5px solid var(--sulong-primary)
+  }
+  .sulong-border-primary-6{
+    border: 6px solid var(--sulong-primary)
+  }
+  .sulong-border-primary-7{
+    border: 7px solid var(--sulong-primary)
+  }
+  .sulong-border-primary-8{
+    border: 8px solid var(--sulong-primary)
   }
 
   .sulong-border-contrast-1{
@@ -422,6 +452,15 @@
   .sulong-border-contrast-5{
     border: 5px solid var(--sulong-contrast)
   }
+  .sulong-border-contrast-6{
+    border: 6px solid var(--sulong-contrast)
+  }
+  .sulong-border-contrast-7{
+    border: 7px solid var(--sulong-contrast)
+  }
+  .sulong-border-contrast-8{
+    border: 8px solid var(--sulong-contrast)
+  }
   
   .sulong-border-secondary-1{
     border: 1px solid var(--sulong-secondary)
@@ -437,6 +476,15 @@
   }
   .sulong-border-secondary-5{
     border: 5px solid var(--sulong-secondary)
+  }
+  .sulong-border-secondary-6{
+    border: 6px solid var(--sulong-secondary)
+  }
+  .sulong-border-secondary-7{
+    border: 7px solid var(--sulong-secondary)
+  }
+  .sulong-border-secondary-8{
+    border: 8px solid var(--sulong-secondary)
   }
 
   .sulong-border-accent1-1{
@@ -454,6 +502,15 @@
   .sulong-border-accent1-5{
     border: 5px solid var(--sulong-accent1)
   }
+  .sulong-border-accent1-6{
+    border: 6px solid var(--sulong-accent1)
+  }
+  .sulong-border-accent1-7{
+    border: 7px solid var(--sulong-accent1)
+  }
+  .sulong-border-accent1-8{
+    border: 8px solid var(--sulong-accent1)
+  }
 
   .sulong-border-top-base-1{
     border-top: 1px solid var(--sulong-base)
@@ -469,6 +526,15 @@
   }
   .sulong-border-top-base-5{
     border-top: 5px solid var(--sulong-base);
+  }
+  .sulong-border-top-base-6{
+    border-top: 6px solid var(--sulong-base);
+  }
+  .sulong-border-top-base-7{
+    border-top: 7px solid var(--sulong-base);
+  }
+  .sulong-border-top-base-8{
+    border-top: 8px solid var(--sulong-base);
   }
 
 /* tooltip */
