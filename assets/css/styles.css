@@ -488,7 +488,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(360deg, var(--sulong-base), var(--sulong-accent1));
+  background-color: var(--sulong-contrast);
   border-radius: 1rem;
 }
 
