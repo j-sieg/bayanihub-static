@@ -1,1 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 386.6 158.41"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{font-size:84.85px;fill:#00a65a;font-family:NeueMontreal-Medium, Neue Montreal;font-weight:500;}.cls-3{font-size:17.94px;fill:#b4b7ab;font-family:NeueMontreal-Regular, Neue Montreal;}.cls-4{letter-spacing:0.01em;}.cls-5{letter-spacing:-0.01em;}.cls-6{letter-spacing:-0.01em;}.cls-7{letter-spacing:-0.02em;}.cls-8{letter-spacing:-0.01em;}.cls-9{letter-spacing:-0.02em;}</style><linearGradient id="linear-gradient" x1="1.7" y1="86" x2="134.69" y2="25.46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00a65a"/><stop offset="1" stop-color="#ffd146"/></linearGradient></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M27.7,153.62,91,90.33a16.23,16.23,0,0,0,0-22.94L63.57,40a13.39,13.39,0,0,0-19.32.38l-11,11.87a6,6,0,0,1-8.61.16h0a6,6,0,0,1-.09-8.32l17-17.84a6,6,0,0,0-.1-8.33L28.39,4.78C18.16-5.44.69,1.8.69,16.26v90.22a6,6,0,0,0,10.18,4.21L50.33,71.23a6,6,0,0,1,8.44,0l.62.62a6,6,0,0,1,0,8.44L1.75,137.93A6,6,0,0,0,0,142.15H0C0,156.6,17.48,163.84,27.7,153.62Z"/><text class="cls-2" transform="translate(107.44 102.54)">Sulong!</text><text class="cls-3" transform="translate(109.95 122.35)"><tspan class="cls-4">M</tspan><tspan class="cls-5" x="15.07" y="0">o</tspan><tspan x="24.77" y="0">ving the F</tspan><tspan class="cls-6" x="98.26" y="0">il</tspan><tspan x="105.19" y="0">ipino </tspan><tspan class="cls-7" x="145.64" y="0">f</tspan><tspan x="150.62" y="0">or</tspan><tspan class="cls-8" x="166.66" y="0">w</tspan><tspan x="179.56" y="0">a</tspan><tspan class="cls-9" x="188.71" y="0">r</tspan><tspan x="194.5" y="0">d</tspan></text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 452 158.41">
+  <defs>
+    <style>
+      @font-face {
+        font-family: main0Regular;
+        src: url("../typefaces/Neue Montreal/NeueMontreal-Regular.otf");
+      }
+
+      @font-face {
+        font-family: main0Medium;
+        src: url("../typefaces/Neue Montreal/NeueMontreal-Medium.otf");
+      }
+
+      @font-face {
+        font-family: main0Bold;
+        src: url("../typefaces/Neue Montreal/NeueMontreal-Bold.otf");
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        font-size: 115px;
+        fill: #00a65a;
+        font-family: main0Medium;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        font-size: 24.5px;
+        fill: #b4b7ab;
+        font-family: main0Regular;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.7" y1="86" x2="134.69" y2="25.46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a65a" />
+      <stop offset="1" stop-color="#ffd146" />
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1"
+        d="M27.7,153.62,91,90.33a16.23,16.23,0,0,0,0-22.94L63.57,40a13.39,13.39,0,0,0-19.32.38l-11,11.87a6,6,0,0,1-8.61.16h0a6,6,0,0,1-.09-8.32l17-17.84a6,6,0,0,0-.1-8.33L28.39,4.78C18.16-5.44.69,1.8.69,16.26v90.22a6,6,0,0,0,10.18,4.21L50.33,71.23a6,6,0,0,1,8.44,0l.62.62a6,6,0,0,1,0,8.44L1.75,137.93A6,6,0,0,0,0,142.15H0C0,156.6,17.48,163.84,27.7,153.62Z" />
+      <text class="cls-2" transform="translate(107.44 110.54)">Sulong!</text>
+      <text class="cls-3" transform="translate(109.95 135.35)">Moving the Filipino forward!</text>
+    </g>
+  </g>
+</svg>
