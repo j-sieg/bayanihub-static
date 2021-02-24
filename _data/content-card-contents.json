@@ -1,26 +1,44 @@
 [
   {
-    "title":"esync woohoo",
+    "link_to": "https://fb.watch/3RT9FEB840/",
+    "img":"https://lh3.google.com/u/0/d/1KZOZAXrp0FCsE73hnzz-hrJpMU8CV19Z=w875-h950-iv1",
+    "title":"Program the Future",
     "body":"wow nc"
   },
   {
-    "title":"esync yahoo",
+    "link_to": "https://web.facebook.com/342524869245017/videos/233474778194979",
+    "img":"https://lh3.google.com/u/0/d/1nUaSrnLD6yQhcXcwv23ULXUl-06mL4Wq=w1920-h950-iv1",
+    "title":"soit podcast",
     "body":"cool"
   },
   {
-    "title":"esync asd",
+    "link_to": "https://www.teknogadyet.com/2020/11/program-the-future-accenture-technology-campus-challenge.html",
+    "img":"https://1.bp.blogspot.com/-GDcEFTzubzo/X6AZLjL5YaI/AAAAAAAAst8/Sdt0KbFIJpE_LkR6G_sKAepyyCKktYQ0gCLcBGAsYHQ/s0/program-the-future-accenture-technology-campus-challenge.webp",
+    "title":"Tekno Gadyet",
     "body":"cool"
   },
   {
-    "title":"esync qwe",
+    "link_to": "https://tnbmapua.wixsite.com/thenewbuilder/News/MoveMap%C3%BAa-wins-big-in-Accenture-PH-Tech-Challenge-2020",
+    "img":"https://static.wixstatic.com/media/207d9d_a0a550136b7844c58246f3cbfe9689b1~mv2.jpg/v1/fill/w_1000,h_571,al_c,q_85/207d9d_a0a550136b7844c58246f3cbfe9689b1~mv2.webp",
+    "title":"TNB",
     "body":"cool"
   },
   {
-    "title":"esync yahoo",
+    "link_to": "https://www.youtube.com/watch?v=wOY6Pxir9Rg",
+    "img":"https://img.youtube.com/vi/wOY6Pxir9Rg/0.jpg",
+    "title":"Demo",
     "body":"cool"
   },
   {
-    "title":"esync yahoo",
+    "link_to": "https://www.youtube.com/watch?v=svrkNw7mLNo",
+    "img":"https://img.youtube.com/vi/svrkNw7mLNo/0.jpg",
+    "title":"initial peach",
+    "body":"cool"
+  },
+  {
+    "link_to": "https://www.youtube.com/watch?v=uiAXBJTjC64",
+    "img":"https://img.youtube.com/vi/uiAXBJTjC64/0.jpg",
+    "title":"final presentation",
     "body":"cool"
   }
 ]

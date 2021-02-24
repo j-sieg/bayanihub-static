@@ -11,7 +11,7 @@ permalink: /
 <section class="container">
   <div class="row">
     {% for card-content in site.data.content-card-contents %}
-      {% include content-card.html title=card-content.title body=card-content.body %}
+      {% include content-card.html link_to=card-content.link_to img=card-content.img title=card-content.title body=card-content.body %}
     {% endfor %}
   </div>
 </section>
