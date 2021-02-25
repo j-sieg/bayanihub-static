@@ -1,8 +1,16 @@
 <div class="col-md-{{include.col_md}} col-sm-{{include.col_sm}} p-2">
   <div class="p-3 text-center h-100">
     <picture class="position-relative d-block p-4" style="">
-      <div class="profile-img-container rounded-circle overflow-hidden position-relative w-100 sulong-border-{{include.color}}-8" style="padding-bottom: 100%;">
-        <img class="h-auto w-100 position-absolute centered team-image" src="{{ include.img }}" style="z-index:-1"/>
+      <div class="profile-img-container rounded-circle overflow-hidden position-relative w-100 sulong-border-{{include.color}}-8" 
+          onMouseOver="this.style.backgroundImage = `url('{{ include.img_hover }}')`" onMouseOut="this.style.backgroundImage = `url('{{ include.img }}')`"
+          style="
+          padding-bottom: 100%;
+          background-image: url('{{ include.img }}');
+          background-size: cover;
+          background-position: center;  
+          transition: 0.4s;
+          ">
+        <!-- <img class="object-fit-none position-absolute centered team-image" src="{{ include.img }}" style="z-index:-1"/> -->
         <!-- <img class="profile-img-hover h-100 w-100 position-absolute left-0" src="{{ include.img_hover }}"style="z-index:0" /> -->
       </div>
       <!-- <div class="svg-container-icon-5 transition-1 position-absolute bottom-0 right-0 {{ include.icon_bg_color }} p-3 rounded-circle">

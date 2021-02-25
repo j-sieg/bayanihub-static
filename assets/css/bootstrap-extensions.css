@@ -84,6 +84,9 @@
 .object-fit-cover{
   object-fit: cover !important;
 }
+.object-fit-none{
+  object-fit: none !important;
+}
 .underline{
   text-decoration: underline;
 }
