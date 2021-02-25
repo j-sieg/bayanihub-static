@@ -1,22 +1,27 @@
 window.onload = () => {
-  
-  //make sticky header consume space
+
+  const currentPage = document.title.split(' | ')[0]
+
+  // Make sticky header consume space
   const headerResizeObserver = new ResizeObserver(entries => 
     document.querySelector("#header-bottom").style.paddingTop = entries[0].target.clientHeight + "px"
-  );headerResizeObserver.observe(document.querySelector("#header"));
+  );
 
-  //Header: add active class to active page
-  [].slice.call(document.querySelector("#navigation-links ul").children).forEach(function(el){
-    if(el.firstElementChild.textContent == document.title.slice(0, document.title.indexOf("|")-1)){
-      el.firstElementChild.classList.add("active");
-    }else{
-      el.firstElementChild.classList.remove("active");
+  headerResizeObserver.observe(document.querySelector("#header"));
+
+  // Header: add active class to active page
+  Array.from(document.querySelector("#navigation-links ul").children).forEach(function(el){
+    const navLink = el.firstElementChild
+
+    if (navLink.textContent == currentPage) {
+      navLink.classList.add("active");
+    } else {
+      navLink.classList.remove("active");
     };
-    console.log(document.title.slice(0, document.title.indexOf("|")-1));
   });
 
-  //persistent flickity autoplay
-  if(document.querySelector("#slideshow") !== null){
+  // Persistent flickity autoplay
+  if(document.querySelector("#slideshow") !== null) {
     let slideshow = new Flickity("#slideshow");
     slideshow.options.pauseAutoPlayOnHover = false;
     slideshow.on('pointerUp', function () {
@@ -28,9 +33,10 @@ window.onload = () => {
   // document.querySelector("header-banner").children.forEach(e => {
   //   e.onclick=() => {window.open('{{site.baseurl}}/', 'mywindow');}
   // })
-}//window.onload end
 
-//function for general carousel resizing
+} // window.onload
+
+// Function for general carousel resizing
 function resizeFlickity(flickityId = null, flickityObject = null){
   let targetCarousel = flickityId == null ? flickityObject: new Flickity(flickityId);
   targetCarousel.watchCSS();
