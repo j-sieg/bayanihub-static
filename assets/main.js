@@ -24,10 +24,14 @@ window.onload = () => {
     });
   }
 
-  // //add link to header banner
-  // document.querySelector("header-banner").children.forEach(e => {
-  //   e.onclick=() => {window.open('{{site.baseurl}}/', 'mywindow');}
-  // })
+  document.querySelectorAll(".team-image").forEach(e => {
+    currentSizeX = e.getBoundingClientRect().width / e.offsetWidth;
+    currentSizeY = e.getBoundingClientRect().height / e.offsetHeight;
+
+    while(e.getBoundingClientRect().height < e.parentElement.clientHeight || e.getBoundingClientRect().width < e.parentElement.clientWidth){
+      e.style.transform  = "translate(-50%,-50%) scale(" + (currentSizeX+=0.01) + ")";
+    }
+  })
 }//window.onload end
 
 //function for general carousel resizing
