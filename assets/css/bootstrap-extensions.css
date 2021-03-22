@@ -66,6 +66,12 @@
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
 }
+.transition-fast{
+  transition: 0.2s;
+}
+.transition-standard{
+  transition: 0.4s;
+}
 .transition-1{
   transition: 1s;
 }
